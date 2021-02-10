@@ -1,0 +1,57 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default-c5202cc35e08dae8",
+  "dataset_size": 314401,
+  "description": "",
+  "download_checksums": {
+    "rag/test_data/dataset.csv": {
+      "checksum": "457894ae65503a3db77200bc418792878a001e42eac5d52b0c3908d57691e095",
+      "num_bytes": 314443
+    }
+  },
+  "download_size": 314443,
+  "features": {
+    "embeddings": {
+      "_type": "Sequence",
+      "feature": {
+        "_type": "Value",
+        "dtype": "float32",
+        "id": null
+      },
+      "id": null,
+      "length": -1
+    },
+    "text": {
+      "_type": "Value",
+      "dtype": "string",
+      "id": null
+    },
+    "title": {
+      "_type": "Value",
+      "dtype": "string",
+      "id": null
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 628844,
+  "splits": {
+    "train": {
+      "dataset_name": "csv",
+      "name": "train",
+      "num_bytes": 314401,
+      "num_examples": 29
+    }
+  },
+  "supervised_keys": null,
+  "version": {
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0,
+    "version_str": "0.0.0"
+  }
+}
